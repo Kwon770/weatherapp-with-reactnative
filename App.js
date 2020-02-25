@@ -1,9 +1,21 @@
 import React from 'react';
 import Loading from "./Loading";
+import * as Location from "expo-location";
 
 // View = div / Text = span, h1, h2, p
-export default function App() {
-  return <Loading />;
+export default class extends React.Component {
+  getLocation = async() => {
+    const location = await Location.getCurrentPositionAsync();
+    console.log(location);
+  }
+
+  componentDidMount() {
+    this.getLocation();
+  }
+
+  render() {
+    return <Loading />;
+  }
 }
 
 // Web default flex-diretion : row
