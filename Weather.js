@@ -11,7 +11,9 @@ import { LinearGradient } from "expo-linear-gradient";
 const weatherOptions = {
   Haze: {
     iconName: "weather-cloudy",
-    gradient: ["#D7D2CC", "#304352"]
+    gradient: ["#D7D2CC", "#304352"],
+    title: "Don't go outside",
+    subtitle: "shit, dangerous huh?"
   },
   Thunderstorm: {
     iconName: "weather-lightning",
@@ -40,7 +42,9 @@ const weatherOptions = {
   },
   Atmosphere: {
     iconName: "weather-hail",
-    gradient: ["#89F7FE", "#66A6FF"]
+    gradient: ["#89F7FE", "#66A6FF"],
+    title: "Well, Look up",
+    subtitle: "freaking weirdo."
   },
   Clear: {
     iconName: "weather-sunny",
@@ -56,7 +60,7 @@ const weatherOptions = {
   },
   Mist: {
     iconName: "weather-hail",
-    gradient: ["#4DA0B0", "#D39D38"],
+    gradient: ["#1c92d2", "#f2fcfe"],
     title: "Mist!",
     subtitle: "It's like you have no glasses on."
   },
@@ -143,7 +147,7 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     width: "100%",
-    paddingHorizontal: 60,
+    paddingHorizontal: 30,
     alignItems: "flex-start"
   }
 });
