@@ -69,6 +69,7 @@ const weatherOptions = {
 };
 
 export default function Weather({ temp, condition }) {
+  // 스타일 여러개 사용 style= {{ ...styles.style, ...styles.style }}
   return (
     <LinearGradient
       colors={weatherOptions[condition].gradient}
@@ -85,7 +86,9 @@ export default function Weather({ temp, condition }) {
       </View>
       <View style={{ ...styles.halfContainer, ...styles.textContainer }}>
         <Text style={styles.title}>{weatherOptions[condition].title}</Text>
-        <Text style={styles.subtitle}>{weatherOptions[condition].title}</Text>
+        <Text style={styles.subtitle}>
+          {weatherOptions[condition].subtitle}
+        </Text>
       </View>
     </LinearGradient>
   );
@@ -139,7 +142,8 @@ const styles = StyleSheet.create({
     color: "white"
   },
   textContainer: {
-    paddingHorizontal: 20,
+    width: "100%",
+    paddingHorizontal: 60,
     alignItems: "flex-start"
   }
 });
