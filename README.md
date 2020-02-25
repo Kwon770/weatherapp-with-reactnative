@@ -1,16 +1,16 @@
 # Weather Application with React Native
 
-|      Clear Weather      |      Cloud Weather      |      Dust Weather      |
-| :---------------------: | :---------------------: | :--------------------: |
-| ![](./images/clear.jpg) | ![](./images/cloud.jpg) | ![](./images/dust.jpg) |
+|         Clear Weather          |         Cloud Weather          |         Dust Weather          |
+| :----------------------------: | :----------------------------: | :---------------------------: |
+| ![](./README/images/clear.jpg) | ![](./README/images/cloud.jpg) | ![](./README/images/dust.jpg) |
 
-|      Drizzle Weather      |      haze Weather      |      Mist Weather      |
-| :-----------------------: | :--------------------: | :--------------------: |
-| ![](./images/drizzle.jpg) | ![](./images/haze.jpg) | ![](./images/mist.jpg) |
+|         Drizzle Weather          |         haze Weather          |         Mist Weather          |
+| :------------------------------: | :---------------------------: | :---------------------------: |
+| ![](./README/images/drizzle.jpg) | ![](./README/images/haze.jpg) | ![](./README/images/mist.jpg) |
 
-|      Rain Weather      |      Snow Weather      |      Thunder Weather      |
-| :--------------------: | :--------------------: | :-----------------------: |
-| ![](./images/rain.jpg) | ![](./images/snow.jpg) | ![](./images/thunder.jpg) |
+|         Rain Weather          |         Snow Weather          |         Thunder Weather          |
+| :---------------------------: | :---------------------------: | :------------------------------: |
+| ![](./README/images/rain.jpg) | ![](./README/images/snow.jpg) | ![](./README/images/thunder.jpg) |
 
 ## Features
 
